@@ -19,6 +19,10 @@ Open your Command Prompt or Terminal to this directory (Movie-Ratings) using `cd
   
 Afterthat, type `pip3 install requirements.txt` into the Command Prompt / Terminal  
   
+Then, you'll need to install Chromedriver to run the script, you can figure out the proper Chromedriver version which is also your current Chrome version [here](https://help.zenplanner.com/hc/en-us/articles/204253654-How-to-Find-Your-Internet-Browser-Version-Number-Google-Chrome)  
+  
+Having done that, you can then download the Chromedriver in [here](https://chromedriver.chromium.org/downloads) (Remember to choose the version closest with the version you've found out above  
+  
 ### 4. Pick your movies
 After you have picked a list of movies. Open the movies.txt text file and write the movie title, each by each, line by line.  
   
@@ -31,6 +35,8 @@ La La Land (2016)
 ```
   
 ### 5. Run the script
-Open the Command Prompt / Terminal you have opened in step 3. (Redo the step again in case you have closed it, but don't need to type `pip3 install requirements.txt`)  
+Open the script file (movie_ratings.py) and adjust the line 16 based on your current OS (If you're using Window, replace line 16 with `chromedriver = chromedriver_window` and so on with Linux and MacOS)  
+    
+Finally, open the Command Prompt / Terminal you have opened in step 3. (Redo the step again in case you have closed it, but don't need to type `pip3 install requirements.txt`)  
   
 Type `python3 movie_ratings.py` and wait for the results. Expected will be a table displayed IMDB and Rotten Tomatoes score, along with each movie's genre.  
