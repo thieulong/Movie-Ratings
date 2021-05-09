@@ -28,11 +28,6 @@ After you have picked a list of movies. Open the movies.txt text file and write 
   
 Note: In order to let the script able to search for your movies better, append release year in parentheses after each of the movie title as the examples below:  
   
-```
-Avengers: Endgame (2019)
-The Book of Life (2014)
-La La Land (2016)
-```
   <img width="699" alt="Screen Shot 2021-05-09 at 22 42 27" src="https://user-images.githubusercontent.com/59945736/117578531-01f40480-b119-11eb-9822-0751605f0d07.png">
 
 ### 5. Run the script
