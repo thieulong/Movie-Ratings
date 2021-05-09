@@ -1,8 +1,8 @@
 # Movie-Ratings
 A script to crawl movie ratings online (IMDB &amp; Rotten Tomatoes) along with movie genres.
 ### 1. Install Github & clone the script
-Firstly, to clone this script, you'll need to install Github to your device. Follow [this link](https://github.com/git-guides/install-git) for more!
-Note: Remember to check your OS (Operating system)
+Firstly, to clone this script, you'll need to install Github to your device. Follow [this link](https://github.com/git-guides/install-git) for more!  
+Note: Remember to check your OS (Operating system)  
 Next, you'll need to config your Github account in your device, seek for further assist [here](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration).
 Once you've done that, let's move to the next step where you'll have to open your Command Prompt or Terminal to clone the script. Once you've open the Command Prompt / Terminal, type `git clone https://github.com/thieulong/Movie-Ratings.git` and wait for the script to be cloned successfully.
 ### 2. Install Python
