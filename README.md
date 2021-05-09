@@ -10,7 +10,7 @@ Next, you'll need to config your Github account in your device, seek for further
 Once you've done that, let's move to the next step where you'll have to open your Command Prompt or Terminal to clone the script. Once you've open the Command Prompt / Terminal, type `git clone https://github.com/thieulong/Movie-Ratings.git` and wait for the script to be cloned successfully.  
   
 ### 2. Install Python
-After having Github installed, you must have [python](https://en.wikipedia.org/wiki/Python_(programming_language) installed on your device because this is all written in Python.  
+After having Github installed, you must have [Python](https://www.python.org/doc/essays/blurb/) installed on your device because this is all written in Python.  
   
 To download Python, check out this [link](https://www.python.org/downloads/), this script is written in Python 3.9.2.  
   
