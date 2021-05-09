@@ -17,6 +17,7 @@ Note: In order to let the script able to search for your movies better, append r
 ```
 Avengers: Endgame (2019)
 The Book of Life (2014)
+La La Land (2016)
 ```
 ### 5. Run the script
 Open the Command Prompt / Terminal you have opened in step 3. (Redo the step again in case you have closed it, but don't need to type `pip3 install requirements.txt`)  
