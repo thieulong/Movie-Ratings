@@ -35,7 +35,7 @@ La La Land (2016)
 ```
   
 ### 5. Run the script
-Open the script file (movie_ratings.py) and adjust the line 16 based on your current OS (If you're using Window, replace line 16 with `chromedriver = chromedriver_window`  
+Open the script file (movie_ratings.py) and adjust the line 16 based on your current OS (If you're using Window, replace line 16 with `chromedriver = chromedriver_window` and so on with Linux and MacOS)  
     
 Finally, open the Command Prompt / Terminal you have opened in step 3. (Redo the step again in case you have closed it, but don't need to type `pip3 install requirements.txt`)  
   
