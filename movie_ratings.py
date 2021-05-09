@@ -13,6 +13,8 @@ chromedriver_linux = '/usr/bin/chromedriver'
 chromedriver_window = 'C:\\Users\\Lorca\\AppData\\Local\\Google\\Chrome\\chromedriver.exe'
 chromedriver_mac = '/usr/local/bin/chromedriver'
 
+chromedriver = chromedriver_mac
+
 with open(movie_file) as file:
     movie_list = [movie.rstrip() for movie in file]
 
@@ -64,7 +66,7 @@ def rotten_tomatoes_score(movie, release_year):
 
 def imdb_score(movie, release_year):
 
-    driver = webdriver.Chrome(chromedriver_mac, options=option)
+    driver = webdriver.Chrome(chromedriver, options=option)
 
     driver.get("https://www.imdb.com/")
 
@@ -116,7 +118,7 @@ def create_table(movie_list):
         
         else:
             audience = ""
-            
+
         genre = capitalize(genre)
         genre = ", ".join(genre)
 
