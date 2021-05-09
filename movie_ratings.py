@@ -104,8 +104,19 @@ def create_table(movie_list):
         movie_title = movie_title.strip()
 
         tomatometer, audience, genre = rotten_tomatoes_score(movie=movie_title, release_year=year)
-        tomatometer = str(tomatometer)+"%"
-        audience = str(audience)+"%"
+
+        if tomatometer != "":
+            tomatometer = str(tomatometer)+"%"
+
+        else:
+            tomatometer = ""
+
+        if audience != "":    
+            audience = str(audience)+"%"
+        
+        else:
+            audience = ""
+            
         genre = capitalize(genre)
         genre = ", ".join(genre)
 
